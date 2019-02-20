@@ -368,9 +368,14 @@
                 with me on Linked In.
               </p>
             </div>
-            <form class="pt-sm-3">
+            <form
+              name="contact"
+              method="POST"
+              data-netlify="true"
+              class="pt-sm-3"
+            >
               <div class="form-group has-success">
-                <label class="control-label">Name:</label>
+                <label for="name" class="control-label">Name:</label>
                 <input
                   id="name"
                   class="form-control p-sm-3"
@@ -381,7 +386,7 @@
                 />
               </div>
               <div class="form-group has-success">
-                <label for="Email" class="control-label">Email:</label>
+                <label for="email" class="control-label">Email:</label>
                 <input
                   id="email"
                   class="form-control p-sm-3"
@@ -392,8 +397,9 @@
                 />
               </div>
               <div class="form-group">
-                <label class="control-label">Subject:</label>
+                <label for="subject" class="control-label">Subject:</label>
                 <input
+                  id="subject"
                   class="form-control p-sm-3"
                   type="text"
                   name="subject"
@@ -402,7 +408,7 @@
                 />
               </div>
               <div class="form-group has-success">
-                <label for="message" class="control-label">Message:</label>
+                <label for="msg" class="control-label">Message:</label>
                 <textarea
                   id="msg"
                   class="form-control p-sm-3"
@@ -412,6 +418,7 @@
                   placeholder="Enter Message"
                 ></textarea>
               </div>
+              <div data-netlify-recaptcha="true"></div>
               <div class="form-group">
                 <button
                   id="btn"
