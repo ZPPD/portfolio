@@ -171,7 +171,9 @@ hr.work {
   letter-spacing: 1px;
   font-size: 1.2rem;
 }
-
+.btn:hover {
+  color: #fff !important;
+}
 /* Contact Social Section */
 .contact-background {
   position: relative;
