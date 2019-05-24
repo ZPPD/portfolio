@@ -83,7 +83,7 @@ a:hover {
   border: 1px solid #d27377;
   border-radius: 3px;
   padding: 0.2rem;
-  /* margin: 0.2rem; */
+  margin-top: 5px;
   display: inline-block;
 }
 
@@ -129,6 +129,10 @@ h3 {
   display: block;
   border-radius: 10px;
   font-size: 1.2rem;
+  color: #df9d9f;
+}
+.view-code:hover {
+  color: #df9d9f;
 }
 
 hr.work {
@@ -167,7 +171,7 @@ hr.work {
 }
 
 .form-group > button {
-  color: #d27377;
+  color: #df9d9f;
   letter-spacing: 1px;
   font-size: 1.2rem;
 }
